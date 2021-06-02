@@ -20,11 +20,16 @@ nnv can be executed online without installing Matlab or other dependencies throu
        Parallel Processing
        System Identification
 
-    2) Clone or download the nnv toolbox from (https://github.com/verivital/nnv)
+    2) Clone or download the nnv toolbox from (https://github.com/VerificationNeuralODE/nnv)
     
     Note: to operate correctly, nnv depends on other tools (CORA, NNMT, HyST), which are included as git submodules. As such, you must clone recursively, e.g., with the following:
     
-    git clone --recursive https://github.com/verivital/nnv.git
+    git clone --recursive https://github.com/VerificationNeuralODE/nnv.git```
+    
+    OR
+    
+    git clone https://github.com/VerificationNeuralODE/nnv.git
+    git submodule update --init --recursive
 
     3) Open matlab, then go to the directory where nnv exists on your machine, then run the `install.m` script located at /nnv/
     
